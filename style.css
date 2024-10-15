@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    /* background-image: url("https://img.freepik.com/fotos-gratis/grande-plano-de-garrafas-e-copos-no-armario-de-exibicao-em-um-bar-no-scandic-hotel-em-copenhague-dinamarca_181624-2920.jpg?t=st=1729000806~exp=1729004406~hmac=ccba7b5b6a19be96174ae89383a00c47c4d1f2ea32735ee4d65ebc9defb685f4&w=1380"); */
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    padding: 35px;
+    background-color: #333;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  /* .container-table {
+    background-color: white;
+  } */
+  
+  .image-container {
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .intro-text {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .combos {
+    margin-top: 20px;
+  }
